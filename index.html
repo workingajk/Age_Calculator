@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Age Calculator</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script src="./script.js"></script>
+    </head>
+
+    <body class="bg-green-200 flex justify-center items-center h-[100vh]">
+        <div class="bg-blue-200 p-8">
+            <h1 class="text-center text-xl font-semibold">Advanced Age Calculator</h1>
+            <div class="p-2">
+                <input id="name" type="text" class="bg-white  w-full rounded-md" />
+            </div>
+            <div class="p-2">
+                <input id="date" type="date" class="bg-white w-full rounded-md" />
+            </div>
+            <div class="flex justify-center"><button onclick="calc()" class="bg-green-500 text-white py-1 px-2 rounded-md">Calculate Age</button></div>
+            <div id="result" class="text-center">
+                
+            </div>
+        </div>
+    </body>
+</html>
